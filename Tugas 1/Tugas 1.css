@@ -1,0 +1,38 @@
+section {
+    display: -webkit-flex;
+    display: flex;
+  }
+
+
+.header{
+    width: 784px;
+    height: 200px;
+    image-rendering: auto;
+    background-image: url('sore.jpg');
+ 
+
+}
+
+.colomnmain{
+    width : 200px;
+    height : auto;
+    position : fixed;
+    background-color: yellow;
+}
+
+.colomnmsec{
+    width : 584px;
+    height : auto;
+    margin-left: 205px;
+    background-color: rgb(255, 110, 13);
+}
+
+.footer {
+    width: 784px;
+    height: 100px;
+    background-color: rgb(140, 0, 255);
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Latihan 2</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+
+    <h1>From Pendaftaran Kuota Kemendikbud</h1>
+
+    <p>Isi Data Diri Anda</p>
+
+    <form action="/action_page.php" id="mahasiswa form">
+        <label for="nama">Nama Lengkap:</label>
+        <input type="text" id="nama" nama="nama">
+        <br>
+        <label for="nim">NIM:</label>
+        <input type="text" id="nim" nim="nim">
+        <br>
+        <label for="nohp">NoHp:</label>
+        <input type="text" id="nohp" nohp="nohp">
+        <label for="provider">Privider:</label>
+        <input type="text" id="provider" provider="provider">
+
+    <br>
+    <label for="prodi">Pilih Prodi: </label>
+    <select id="prodi" name="daftar prodi" form="form prodi">
+        <option value="IF">IF</option>
+        <option value="AR">AR</option>
+        <option value="EL">EL</option>
+        <option value="GT">GT</option>
+        <option value="FI">FI</option>
+        <option value="TG">TG</option>
+        <option value="GL">GL</option>
+        <option value="TK">TK</option>
+        <option value="MTK">MTK</option>
+        <option value="lainnya">Lainnya</option>
+    </select>
+
+    <p>Jenis Kelamin</p>
+    <label for="laki-laki">Laki-Laki</label>
+    <input type="radio" name="laki-laki" id="laki-laki" value="laki-laki">
+    <label for="perempuan">Perempuan</label>
+    <input type="radio" name="perempuan" id="perempuan" value="perempuan">
+
+    <br>
+    <p>Keluhan selama kuliah online</p>
+    <textarea rows="4" cols="50" name="comment" form="usrform">
+Tuliskan keluan anda...</textarea>
+
+    <p>Saya mengisi data dengan benar</p>
+
+    <input type="submit">
+</form>
+
+</body>
+
+</html> 
