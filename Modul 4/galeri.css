@@ -1,0 +1,22 @@
+body {
+    font: Helvetica, sans-serif;
+    color: rgb(51, 0, 0);
+    background-color: #ffffffc9;
+  }
+  
+  .cfooter {
+    text-align: center;
+    color: black;
+    font-size: 12px;
+  }
+  
+  img {
+    width: 450px;
+    height: 300px;
+  }
+  
+  .galery {
+    text-align: center;
+  }
+  
+  /*# sourceMappingURL=style.css.map */
